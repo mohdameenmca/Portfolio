@@ -1,0 +1,75 @@
+
+.Sub-title{
+    background-color: aliceblue;
+    font-family: sans-serif;
+    height: auto;
+    width: 56rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 1rem;
+    margin: 1rem auto;
+    padding: 2rem;
+}
+.Contact{
+    height: auto;
+    width: 100%;
+    
+    background-color: black;
+    color: silver;
+
+    a{
+        color: gray;
+        cursor: pointer;
+        text-decoration: none;
+    }
+    
+    .icons{
+        display: flex;
+        font-size: 1.5rem;
+        width: 80%;
+        height: 2rem;
+        justify-content: space-evenly;
+        margin: 0 auto;
+        
+    }
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    img{
+        border-radius: 0.75rem;
+    }
+}
+.typing-text {
+    
+    white-space: nowrap;
+    overflow: hidden;
+    /* border-right: .15em solid #3498db; Cursor */
+    animation: typing 1.5s steps(10, end), blink-caret 0.2s  ;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 30%; }
+}
+
+body{
+    font-family: sans-serif;
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: blue;
+    }
+  }
+  
+/* .post{
+    height: 100vh;
+}
+body{
+    background-image: url(Ameen.jpeg);
+    background-size: 100%;
+    background-repeat:no-repeat
+} */
